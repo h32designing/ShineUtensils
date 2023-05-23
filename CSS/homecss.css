@@ -1,0 +1,449 @@
+body{
+    background-color: WHITE;
+    color: gray;
+  }
+  *{
+    box-sizing: border-box;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+    .navbar{
+        border: none;
+        margin-bottom: 0px;
+    }
+    .navh1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: #ff9a00;
+    
+  }
+  #products-menu{
+    background-color: black;
+    color: #ff9a00;
+  }
+  .navbar-brand{
+      padding-right: 60px;
+  }
+  .navbar{
+    background-color: black;
+  }
+  
+  .collapse{
+    overflow: hidden;
+  }
+  .anchor{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-right: 10px;
+      font-size: 18px;
+      transition: .4s all ease;
+  }
+  .anchor:hover{
+    border-bottom: 2px solid #ff9a00;
+    background-color: white;
+    color: black;
+    transition: .4s all ease;
+  }
+  .anchor:active{
+    border-bottom: 2px solid #ff9a00;
+    
+  }
+  .activea{
+    border-bottom: 2px solid #ff9a00;
+    background-color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .btn-block{
+      font-size: 20px;
+      letter-spacing: 2px;
+      background: transparent;
+      -webkit-transition: 0.9s;
+      transition: 0.9s;
+      color:#ff9a00;
+      background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+      background-position: right bottom;
+      background-size: 280% 100%;
+    }
+    .btn-block:hover{
+      background-position : left bottom;
+      border: 2px solid #ff9a00;
+      color: #fff;
+    }
+    #h2{
+      text-align: center;
+      color: gray;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 5px;
+    }
+    .para > p{
+      font-size: 18px; 
+      text-align: justify;
+    }
+    #para-img {
+      height: 370px;
+    }
+
+    .btn-city{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    #h1{
+      text-align: center;
+    }
+  #test{
+        margin-top: 25px;
+        text-align: center;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+          animation: fadein 6s;
+    }
+    .user-form{
+      overflow-x: hidden;
+    }
+    .user-drawer {
+        position: relative;
+
+        margin-left:90%;
+        width: 100%;
+        left: 602px;
+        transition:left 1s;
+      }
+      .openUserEditBox, .closeUserEditBox{
+        border-radius: 0;
+        border: 2px solid;
+        height: 50px;
+        background: transparent;
+        -webkit-transition: 0.9s;
+        transition: 0.9s;
+        margin-right: 30px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 18px;
+        text-align: center;
+        display: inline-flex;
+        margin-bottom: 40px;
+    }
+    
+    .openUserEditBox{
+      color: gray;
+      background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+      background-position: right bottom;
+      margin-left: 35%;
+      background-size: 280% 100%;
+    }
+    
+    .openUserEditBox:hover{
+      background-position : left bottom;
+      border: 2px solid #ff9a00;
+      color: #fff;
+    }
+    .closeUserEditBox{
+      color: gray;
+      background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+      background-position: right bottom;
+      background-size: 280% 100%;
+    }
+    
+    .closeUserEditBox:hover{
+      background-position: left bottom;
+      border: 2px solid #ff9a00;
+      color: #fff;
+    }
+    .carousel-caption
+  {
+    padding-bottom: 200px;
+    padding-right: auto;
+    padding-left: auto;
+  }
+  .carousel-caption
+  {
+    font-size: 50px;
+  }
+  #myCarousel{
+    margin-bottom: 60px;
+  }
+  .carousel-inner img
+  {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .btn.btn-flat{
+  border-radius: 0;
+  border: 2px solid;
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  text-align: center;
+  display: inline-flex;
+}
+
+.btn-flat.btn-primary{
+color: #ff9a00;
+background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+background-position: right bottom;
+background-size: 280% 100%;
+padding-left: 10px;
+}
+
+.btn-flat.btn-primary:hover{
+background-position : left bottom;
+border: 2px solid #ff9a00;
+color: #fff;
+}
+.btn-flat.btn-secondary{
+color: #ff9a00;
+background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+background-position: right bottom;
+background-size: 280% 100%;
+}
+
+.btn-flat.btn-secondary:hover{
+background-position: left bottom;
+border: 2px solid #ff9a00;
+color: #fff;
+}
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    .btn-block{
+      border: 2px solid #ff9a00; 
+      background-color: transparent;
+      color:gray;
+    }
+    #footer-btn{
+      font-size: 20px;
+      letter-spacing: 2px;
+      background: transparent;
+      -webkit-transition: 0.9s;
+      transition: 0.9s;
+      border: 2px solid #ff9a00;
+      color:#ff9a00;
+      background: linear-gradient(30deg, #ff9a00 50%, transparent 50%);
+      background-position: right bottom;
+      background-size: 280% 100%;
+      width: 100%;
+    }
+    #footer-btn:hover{
+      background-position : left bottom;
+      color: #fff;
+    }
+    .btn-block:hover{
+      border: 2px solid #ff9a00; 
+      background-color: #ff9a00;
+      color:white;
+    }
+    .btn-block:active{
+      border: 2px solid #ff9a00; 
+      background-color: #ff9a00;
+      color:gray;
+    }
+    .btn-block:checked{
+      border: 2px solid #ff9a00; 
+      background-color: #ff9a00;
+      color:gray;
+    }
+    .img{
+      margin-bottom: 60px;
+      }
+      .add{
+        color: #ff9a00;
+      }
+      .counterimg{
+        margin-bottom: 60px;
+        opacity: 0.6;
+        width: 100%;
+      }
+      
+      .counter-count
+        {
+            font-size: 30px;
+            background-color: #10101a;
+            border-radius: 50%;
+            position: relative;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            font-family: 'Poppins', sans-serif;
+            width: 100px;
+            height: 100px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: inline-block;
+        }
+        .counterh{
+          margin-top: 300px;
+          margin-bottom: 150px;
+          text-align: center;
+          width: 30%;
+          float: left;
+          color: white;
+          
+        }
+        .hcount{
+          font-size: 40px;
+          color: #10101a;
+        }
+        footer{
+        vertical-align: middle;
+        display: fixed;
+
+    }
+        .panel{
+          border: 1px solid black;
+        }
+        .btn-lg{
+          border: 2px solid #ff9a00;
+          background-color: transparent;
+ 
+        }
+        .btn-lg:hover{
+          background-color: #ff9a00;
+          color: white;
+          transition: background 400ms ease-in-out;
+        }
+        .btn-lg:active{
+          background-color: #ff9a00;
+          color: white;
+        }
+        #btn1{
+          background-color: #ff9a00;
+          color: white;
+        }
+        #europe{
+          display: none;
+          font-family: 'Poppins', sans-serif;
+        }
+        #pakistan{
+          display: none;
+          font-family: 'Poppins', sans-serif;
+        }
+        #uae{
+          display: none;
+          font-family: 'Poppins', sans-serif;
+        }
+        #america{
+          font-family: 'Poppins', sans-serif;
+        }
+        .img1{
+          width: 100%;
+          height: 250px;
+        }
+        .img2{
+          width: 100%;
+          height: 250px;
+        }
+        .img3{
+          width: 100%;
+          height: 250px;
+        }
+        .glyphicon-arrow-down{
+          display: none;
+        }
+        #nav-img{
+          width: 80px;
+          height: 60px; 
+          margin-top: -20px; 
+          display: inline;
+        }
+        @media screen and (max-width: 380px) {
+         .navbar-brand{
+           margin-top: -50px;
+         }
+
+        }
+      @media screen and (max-width: 992px) {
+        
+        .carousel-caption{
+          margin: 0px;
+          padding: 0px;
+          margin-bottom: 60px;
+        }
+        .btn-flat{
+          margin: 0px;
+          padding: 0px;
+        }
+        .counterh {
+          width: 100%;
+          display: block;
+          text-align: center;
+          margin-top: 25px;
+          padding: 0px;
+          margin-bottom: -25px;
+        }
+        .hcount{
+          margin: 0px;
+          padding: 0px;
+          font-size: 35px;
+        }
+        .counter-count{
+          font-size: 25px;
+          line-height:92px;
+          width: 92px;
+          height: 92px;
+        }
+        .counterimg{
+          height: 500px;
+        }
+        .img:hover{
+          margin-bottom: 60px;
+        }
+        .img1{
+          width: 100%;
+          height: 250px;
+        }
+        .img2{
+          width: 100%;
+          height: 250px;
+        }
+        .img3{
+          width: 100%;
+          height: 250px;
+        }
+        .btn-lg{
+          margin-right: 10px;
+        }
+        .glyphicon-arrow-down{
+          display: inline;
+        }
+        .glyphicon-arrow-right{
+          display: none;
+        }
+        .openUserEditBox{
+          margin-left: 15%;
+        }
+      }

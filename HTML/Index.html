@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="..\JS\homejs.js"></script>
+    <link rel="stylesheet" href="..\CSS\homecss.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>S.U | Home</title>
+    <link rel = "icon" href ="..\IMAGES\document.png" type = "image/x-icon">
+</head>
+<style>
+  footer{
+        vertical-align: middle;
+        display: fixed;
+        }
+</style>
+<body>
+
+<!--NAV-->
+<nav class="navbar navbar-default" style="padding-bottom: 0px; background-color: black;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a style="display: inline;" class="navbar-brand" href="#"><img style="width: 80px; height: 60px; margin-top: -20px; display: inline;" src="..\images\document.png" alt=""> <span style="display: inline; font-size: 21px; color: #ff9a00; font-family: 'Popins',sans-serif; margin-top: 8px;"><b>Shine Utensils</b></span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="activea"><a href="Index.html" style="color: #ff9a00;"><i class="glyphicon glyphicon-home"> </i><b> Home</b></a></li>
+        <li class="dropdown anchor"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ff9a00;"><i class="glyphicon glyphicon-shopping-cart"> </i><b> Products</b>
+          <i class="fa fa-caret-down"></i></a>
+          <ul id="products-menu" class="dropdown-menu">
+          <li class="anchor"><a href="Eating.html" style="color: #ff9a00;">Eating Utensils</a></li>
+          <li class="anchor"><a href="cutting.html" style="color: #ff9a00;">Cutting Utensils</a></li>
+          <li class="anchor"><a href="cooking.html" style="color: #ff9a00;">Cooking Utensils</a></li>
+          </ul>
+      </li>
+        <li class="anchor"><a href="contact us.html" style="color: #ff9a00;"><i class="fa fa-phone"> </i><b> Contact us</b></a></li>
+        <li class="anchor"><a href="about us (2).html" style="color: #ff9a00;"><i class="fa fa-address-card"> </i><b> About Us</b></a></li>
+        <li class="anchor"><a href="feedback page.html" style="color:#ff9a00;"><i class="fa fa-sticky-note"> </i><b> Feedback</b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--carousel-->
+        <div id="myCarousel" class="carousel slide" id="slider" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active" >
+              <img class="img-responsive" src="..\IMAGES\new new new.jpg" alt="image1" width="100%">
+            
+            <div class="carousel-caption">
+              <h1><b> WELCOME TO OUR <br> ONLINE STORE</b></h1>
+              <a href="cooking.html" class="btn btn-primary btn-block btn-flat">Buy Products</a>
+              <a href="contact us.html" class="btn btn-secondary btn-block btn-flat">Contact Us</a>
+            </div>
+          </div>
+        
+            <div class="item">
+              <img class="img-responsive" src="..\IMAGES\ci1.jpg" alt="image2" width="100%">
+              <div class="carousel-caption">
+                <h1><b>WORLD'S BIGGEST SALE<br> IS COMING SOON</b></h1>
+              </div>
+            </div>
+        
+            <div class="item">
+              <img class="img-responsive" src="..\IMAGES\ci2.jpg" alt="image3" width="100%">
+              <div class="carousel-caption">
+                <h1><b> QUALITY THAT<br> YOU WANTS</b></h1>
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="..\IMAGES\ci3.jpg" alt="image3" width="100%">
+              <div class="carousel-caption">
+                <h1><b> FOLLOW US TO <br> GET OUR NOTIFICATIONS</b></h1>
+                <a href="" class="btn btn-primary btn-block btn-flat">FOLLOW US</a>
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+<!--CONTENT-->
+      <div class="container">
+        <!--PROMO-->
+        <!--MODAL-->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <!--HEADING-->
+        <div id="test" class="animate__backInDown" style="margin:auto; font-family: 'Poppins', sans-serif; width: 40%; margin-bottom: 80px;">
+              <h2 id="#h2" >Get 20% off now by <br> using our Promo Code</h2>
+                <br>  <button class="btn btn-block button-2" type="button" data-toggle="modal" data-target="#myModal"><b>Promo Code</b></button>
+              </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 container-fluid" style="margin-bottom: 80px;">
+              <div class="para"><p>Shine Utensil was founded in Sialkot (Province of Punjab) Pakistan in 1937 by “Sh. Abdul Razzaq”(Late). Our first shop picture is this <span class="glyphicon glyphicon-arrow-right"></span><span class="glyphicon glyphicon-arrow-down"></span><br>
+                At that time Shine Utensil became one of the first companies to produce Aluminum household utensils in Pakistan. So we have that title of “Pioneer” in Aluminum Cookware. <br><br>
+                We are also holding a title of “INVENTOR” of Pressure Cooker in Pakistan back in 1990’s along with our exclusive entrance in the field of NON-Stick technology as well. 
+                Now a days we have different shops across the world
+                <br><br>
+                Non-Compromised quality and elegant designs have not only made our products dominant in the local market but also highly popular across the world. 
+                That created a need for more productions. </p></div>
+          </div>
+          <div class="col-md-6" style="margin-bottom: 80px;">
+              <img class="img-responsive" id="para-img" src="https://previews.123rf.com/images/nisanga/nisanga1705/nisanga170500162/78556498-shop-full-of-kitchen-utensils-in-java-indonesia.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <h1 id="h1" style="color: gray; text-decoration:  black; font-family: 'Poppins', sans-serif; margin-bottom: 40px;">Branches in different countries</h1>
+        <divclass="row">
+         <div class="col-md-3 btn-city"> 
+           <button class="btn btn-lg" id="btn1" >America</button>
+          </div>
+          <div class="col-md-3 btn-city"> 
+            <button class="btn btn-lg" id="btn2" >Europe</button>
+           </div>
+           <div class="col-md-3 btn-city"> 
+            <button class="btn btn-lg" id="btn3" >UAE</button>
+           </div>
+           <div class="col-md-3 btn-city"> 
+            <button class="btn btn-lg" id="btn4" >Pakistan</button>
+           </div>
+        </div>
+        <div id="america">
+            <div class="container-fluid">
+              <div class="col-md-4 img">
+                  <img class="img-responsive" class="img1" src="..\IMAGES\image1.jpg" alt="" srcset="">
+                  <h4><b class="add">Address:</b> JANE ROE
+                    200 MAIN ST
+                    PHOENIX AZ 85123
+                    USA</h4>
+                </div>
+              <div class="col-md-4 img">
+                  <img class="img-responsive" class="img2" src="..\IMAGES\image2.jpg" alt="" srcset="">
+                  <h4><b class="add">Address:</b> CHRIS NISWANDEE
+                    795 DRAGRAM
+                    TUCSON AZ 85705
+                    USA</h4>
+                </div>
+              <div class="col-md-4 img">
+                <img class="img-responsive" class="img3" src="..\IMAGES\image3.jpg" alt="" srcset="">
+                <h4><b class="add">Address:</b> MARY ROE DRAGRAM SUITE 5A
+                  TUCSON 85705
+                  USA</h4>
+              </div>
+            </div>
+        </div>
+        <div id="europe">
+          <div class="container-fluid">
+            <div class="col-md-4 img">
+                <img class="img-responsive" class="img1" src="..\IMAGES\image2.1.jpg" alt="" srcset="">
+                <h4><b class="add">Address:</b> Country
+                  Malthouse and Osborne Farms,
+                  Hampshire</h4>
+              </div>
+            <div class="col-md-4 img">
+                <img class="img-responsive" class="img2" src="..\IMAGES\image2.2.jpg" alt="" srcset="">
+                <h4><b class="add">Address:</b> Unit 40, 
+                  Lakeside Village, 
+                  South Yorkshire, 
+                  DN4 5PH</h4>
+              </div>
+            <div class="col-md-4 img">
+              <img class="img-responsive" class="img3" src="..\IMAGES\image2.3.jpg" alt="" srcset="">
+              <h4><b class="add">Address:</b> Notcutts Garden Centre, 
+                Daniels Road, 
+                Norwich, 
+                NR4 6QP</h4>
+            </div>
+          </div>
+      </div>
+      <div id="pakistan">
+        <div class="container-fluid">
+          <div class="col-md-4 img">
+              <img class="img-responsive" style="height: 250px;" class="img1" src="..\IMAGES\image4.1.jpg" alt="" srcset="">
+              <h4><b class="add">Address:</b> Block 6a StreetNo.4 House No.48 Dubai, UAE</h4>
+            </div>
+          <div class="col-md-4 img">
+              <img class="img-responsive" style="height: 250px;" class="img2" src="..\IMAGES\image4.2.jpg" alt="" srcset="">
+              <h4><b class="add">Address:</b> Block 4d StreetNo.1 House No.18 Sharjah, UAE</h4>
+            </div>
+          <div class="col-md-4 img">
+            <img class="img-responsive" style="height: 250px; width: 100%;" class="img3" src="..\IMAGES\image4.3.jpg" alt="" srcset="">
+            <h4><b class="add">Address:</b> Block 8c StreetNo.7 House No.50 Abu Dhabi, UAE</h4>
+          </div>
+        </div>
+    </div>
+    <div id="uae">
+      <div class="container-fluid">
+        <div class="col-md-4 img">
+            <img class="img-responsive" style="height: 270px; width: 100%;" class="img1" src="..\IMAGES\pakis (3).jpg" alt="" srcset="">
+            <h4><b class="add">Address:</b> F28 ServiceLn, Block 9 Clifton, Karachi City, Sindh </h4>
+          </div>
+        <div class="col-md-4 img">
+            <img class="img-responsive" style="height: 270px; width: 100%;"  class="img2" src="..\IMAGES\pakis (4).jpg" alt="" srcset="">
+            <h4><b class="add">Address:</b> Shop No 9 Bhagnari St, Karachi City, Sindh</h4>
+          </div>
+        <div class="col-md-4 img">
+          <img class="img-responsive" style="height: 270px; width: 100%;"  class="img3" src="..\IMAGES\pakistan-img (3).jpg" alt="" srcset="">
+          <h4><b class="add">Address:</b> 16C D.H.A. Phase 7, Sialkot City, Punjab 75500</h4>
+        </div>
+      </div>
+  </div>
+  
+  
+        <div class="container" style="overflow-x: hidden;">
+          <div class="row counter">
+              <div class="col-md-12">
+                  <img class="img-responsive counterimg" width="100%" src="https://cdn.ready-market.com/102/662f622e//Templates/pic/Kitchenware-Supermarket-Shelving-00.jpg?v=48ea59bd" alt="test" class="img-responsive">
+                  <div class="carousel-caption">
+                    <div class=" counterh st">
+                      <span class="counter-count fig-number">2375</span>
+                      <h2 class="hcount">Customers</h2>
+                    </div>
+                    <div class=" counterh">
+                      <span class="counter-count nd fig-number">10000</span>
+                      <h2 class="hcount">Orders</h2>
+                    </div>
+                    <div class="counterh">
+                      <span class="counter-count rd fig-number">952</span>
+                      <h2 class="hcount">Products</h2>
+                    </div>
+                  </div>
+               </div>
+              </div>
+            </div>
+      </div>
+
+      
+          <footer>
+            <div style="padding: 20px; background-color: black; box-shadow: 10px 0 15px black; color: white; flex-basis: 30%; text-transform: uppercase; text-align: justify; text-shadow: #ff9a00;">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h3>S.Utensils</h3>
+                        <div style="background-image:linear-gradient(to right, #ff9a00, black); width: 100%; height: 2px;"></div>
+                        <img style="margin-left: -40px; margin-top: -18px; width: 200px; height: 160px;" src="..\IMAGES\document.png" alt="" srcset="">
+
+                    </div>
+                    <div class="col-md-2">
+                        <h3>PRODUCTS</h3>
+                        <div style="width: 100%; height: 2px; background-image:linear-gradient(to right, #ff9a00, black);"> </div>
+                        <div style="padding-block: 10px; font-size: 16px;">
+                            <p>Eating Utensils</p>
+                            <p>Cutting Utensils</p>
+                            <p>Cooking Utensils</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>ABOUT US</h3>
+                        <div style="width: 100%; height: 2px; background-image:linear-gradient(to right, #ff9a00, black);"></div>
+                        <div style="padding-block: 12px; font-size: 16px;">
+                            <p>Home</p>
+                            <p>Gallery</p>
+                            <p>Contact Us</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>ADDRESS</h3>
+                        <div style="width: 100%; height: 2px; background-image:linear-gradient(to right, #ff9a00, black);"></div>
+                        <div style="padding-block: 6px; font-size: 16px; text-transform: none; font-family: 'Poppins', Arial, sans-serif">
+                            <span> AptechNN,Karachi</span>
+                        </div>
+                        <div style="padding-block: 6px; font-size: 16px; text-transform: none;">
+                            <span> 021-765432100</span>
+                        </div>
+                        <div style="padding-block: 6px; font-size: 16px; text-transform: none;">
+                            <span> utensil@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>CONTACT US</h3>
+                        <div style="width: 100%; height: 2px; background-image:linear-gradient(to right, #ff9a00, black);"></div>
+                            <form action="">
+                            <div class="text"><span class="inpu-group-addon">@</span> Email</div>
+                            <input type="email" required placeholder="abc@gmail.com" style="background:black; color: white; width: 100%; border-color: #ff9a00; margin-block: 7px;">
+                            <div class="text"><span class="glyphicon glyphicon-edit"></span> Message</div>
+                            <textarea cols="30" rows="3" required style="margin-block: 7px; border-color: #ff9a00; color: white; border-width: 2px;background:black; width: 100%;"></textarea>
+                            <button type="submit" id="footer-btn" class="btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </footer>
+
+</body>
+</html>
